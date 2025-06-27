@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About - RecruitRobo</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Quicksand:wght@400;600&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+<body>
+  <nav class="navbar">
+    <div class="logo">RecruitRobo</div>
+    <ul>
+      <li><a href="{{ url_for('main.home') }}">Home</a></li>
+      <li><a href="{{ url_for('main.about') }}">About</a></li>
+      <li><a href="{{ url_for('main.login') }}">Login</a></li>
+      <li><a href="{{ url_for('main.register') }}">Register</a></li>
+    </ul>
+  </nav>
+
+  <header class="container">
+    <h1>About <span class="accent">RecruitRobo</span></h1>
+    <p class="accent">AI That Hires Better</p>
+  </header>
+
+  <!-- rest of the about.html content... -->
+
+  <header class="container">
+    <h1> <span class="accent"> About RecruitRobo</span></h1>
+    <p class="accent">AI That Hires Better</p>
+  </header>
+
+  <main class="container">
+    <section class="info-block">
+      <h2>🚀 Our Mission</h2>
+      <p>
+        At <strong>RecruitRobo</strong>, we harness cutting-edge AI to transform how companies hire talent.
+        Our goal is simple: <span class="accent">make hiring faster, smarter, and fairer</span>.
+      </p>
+    </section>
+
+    <section class="info-block alt">
+      <h2 class="accent">🤖 What We Do</h2>
+      <ul class="styled-list">
+        <li>AI-Powered Resume Scanning & Ranking</li>
+        <li>Real-time ATS Score for Job Seekers</li>
+        <li>Resume Optimization Based on Job Descriptions</li>
+        <li>Smart Dashboard for Recruiters & Students</li>
+        <li>Bulk Upload with Score-Based Filtering</li>
+      </ul>
+    </section>
+
+    <section class="info-block">
+      <h2>✨ Why Choose Us?</h2>
+      <p>
+        We blend automation with personalization. <strong>RecruitRobo</strong> doesn’t just scan resumes —
+        it <span class="accent">understands them</span>. We help employers find top talent and help candidates present their best self.
+      </p>
+    </section>
+
+    <section class="info-block alt">
+      <h2 class="accent" >🧠 Meet the Team</h2>
+      <p>
+        We're a group of engineers, AI researchers, and hiring specialists who believe the future of recruitment is intelligent,
+        inclusive, and instantaneous. We’re here to <span class="accent">redefine the hiring process</span>.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 RecruitRobo — AI That Hires Better
+  </footer>
+
+</body>
+</html>
